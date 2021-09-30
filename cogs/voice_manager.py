@@ -69,7 +69,7 @@ class VoiceManager(commands.Cog):
             category = self.bot.get_channel(self.bot.get_channel(self.ID_VOICE_CHANNEL).category_id)
             # join voice
             if after.channel is not None and after.channel.id == self.ID_VOICE_CHANNEL:
-                channel = await member.guild.create_voice_channel(name=member.name(),
+                channel = await member.guild.create_voice_channel(name=str(member.name),
                                                                   user_limit=0,
                                                                   category=category)
                 await member.move_to(channel)
