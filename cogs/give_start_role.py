@@ -8,7 +8,7 @@ from info import serverinfo
 class GiveStartRole(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.START_ROLE_ID = serverinfo.START_ROEL_ID
+        self.START_ROLE_ID = serverinfo.START_ROLE_ID
 
     @commands.Cog.listener()
     async def on_member_join(self, member):
