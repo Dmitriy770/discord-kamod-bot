@@ -28,4 +28,4 @@ bot.load_extension("cogs.audit_log")
 bot.load_extension("cogs.voice_manager")
 bot.load_extension("cogs.give_start_role")
 
-bot.run('NzM0NzMzNjQ1OTAxNzI1NzY2.XxWABw.Gt57r8wuiNtprE4Ya-nsCnsjxHY')
+bot.run('')
